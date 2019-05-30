@@ -9,7 +9,7 @@
     <Waypoint name="181 Landau Ebenberg" id="0" comment="" altitude="160.0">
       <Location longitude="8.1361167" latitude="49.1763833"/>
     </Waypoint>
-    <ObservationZone type="Sector" radius="10000.0" start_radial="0.0" end_radial="0.0"/>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
   </Point>
   <Point type="Area">
     <Waypoint name="263 Schlierstadt Seligenstadt" id="0" comment="" altitude="344.0">
