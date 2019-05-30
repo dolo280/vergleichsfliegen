@@ -1,33 +1,33 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="Ludwigshafen Dan" id="0" comment=" 130.125" altitude="96.0">
-      <Location longitude="8.3497222" latitude="49.4119444"/>
+    <Waypoint name="003 AP Sued" id="0" comment="" altitude="105.0">
+      <Location longitude="8.37" latitude="49.3666667"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="Gruenstadt Quirn" id="0" comment=" 122.3" altitude="316.0">
-      <Location longitude="8.1394444" latitude="49.5855556"/>
+  <Point type="Area">
+    <Waypoint name="181 Landau Ebenberg" id="0" comment="" altitude="160.0">
+      <Location longitude="8.1361167" latitude="49.1763833"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Sector" radius="10000.0" start_radial="0.0" end_radial="0.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="Landau Ebenberg" id="0" comment=" 123.375" altitude="162.0">
-      <Location longitude="8.1361111" latitude="49.1763889"/>
+  <Point type="Area">
+    <Waypoint name="263 Schlierstadt Seligenstadt" id="0" comment="" altitude="344.0">
+      <Location longitude="9.3625" latitude="49.4427833"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="40000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="Epfenbach Ul" id="0" comment=" 123.425" altitude="219.0">
-      <Location longitude="8.9169444" latitude="49.3208333"/>
+  <Point type="Area">
+    <Waypoint name="049 Bretten Bf" id="0" comment="" altitude="173.0">
+      <Location longitude="8.69305" latitude="49.03695"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="Ludwigshafen Dan" id="0" comment=" 130.125" altitude="96.0">
-      <Location longitude="8.3497222" latitude="49.4119444"/>
+    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
+      <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
-    <ObservationZone type="Line" length="1000.0"/>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
   </Point>
 </Task>
 
