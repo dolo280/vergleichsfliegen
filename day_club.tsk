@@ -1,19 +1,13 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
-      <Location longitude="8.3483333" latitude="49.4116667"/>
+    <Waypoint name="002 AP Nord" id="0" comment="" altitude="98.0">
+      <Location longitude="8.3238833" latitude="49.4427833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="068 Deidesheim Bf" id="0" comment="" altitude="107.0">
-      <Location longitude="8.19305" latitude="49.4088833"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="115 Gruenstadt Quirnheimer Berg" id="0" comment="" altitude="315.0">
-      <Location longitude="8.13945" latitude="49.58555"/>
+    <Waypoint name="114 Gruenstadt A6 BAB019" id="0" comment="" altitude="163.0">
+      <Location longitude="8.1861167" latitude="49.55195"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
@@ -33,7 +27,7 @@
     <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
       <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="3000.0"/>
+    <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
 
