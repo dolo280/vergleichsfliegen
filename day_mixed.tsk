@@ -1,33 +1,38 @@
-<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="003 AP Sued" id="0" comment="" altitude="105.0">
-      <Location longitude="8.37" latitude="49.3666667"/>
+    <Waypoint name="005 AP Ost" id="0" comment="" altitude="96.0">
+      <Location longitude="8.4491667" latitude="49.3961667"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="181 Landau Ebenberg" id="0" comment="" altitude="160.0">
-      <Location longitude="8.1361167" latitude="49.1763833"/>
+  <Point type="Turn">
+    <Waypoint name="017 Bad Bergzabern Bf" id="0" comment="" altitude="167.0">
+      <Location longitude="8.0036167" latitude="49.10305"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="10000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="263 Schlierstadt Seligenstadt" id="0" comment="" altitude="344.0">
-      <Location longitude="9.3625" latitude="49.4427833"/>
+  <Point type="Turn">
+    <Waypoint name="147 Ingelfingen Buehlhof" id="0" comment="" altitude="421.0">
+      <Location longitude="9.6636167" latitude="49.3216667"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="40000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="049 Bretten Bf" id="0" comment="" altitude="173.0">
-      <Location longitude="8.69305" latitude="49.03695"/>
+  <Point type="Turn">
+    <Waypoint name="201 Maulbronn Kloster Kirche" id="0" comment="" altitude="264.0">
+      <Location longitude="8.8133333" latitude="49.0011167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="15000.0"/>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="221 Neckargemuend Bf" id="0" comment="" altitude="123.0">
+      <Location longitude="8.78805" latitude="49.3936167"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
       <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="3000.0"/>
+    <ObservationZone type="Line" length="20000.0"/>
   </Point>
 </Task>
-
