@@ -33,6 +33,7 @@
     <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
       <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
-    <ObservationZone type="Line" length="20000.0"/>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
   </Point>
 </Task>
+
