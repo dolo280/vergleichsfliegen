@@ -1,32 +1,33 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="200" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
-	<Point type="Start">
-		<Waypoint altitude="98" comment="" id="332" name="333 BASF Limburgerhof">
-			<Location latitude="49.41" longitude="8.39917"/>
-		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="566" comment="" id="121" name="122 Harburg Tv 2548Ft Huehnerberg">
-			<Location latitude="48.7858" longitude="10.6686"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="872" comment="" id="265" name="266 Schonach Kirche">
-			<Location latitude="48.1425" longitude="8.19612"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="102" comment="" id="273" name="274 Schwetzingen Schloss">
-			<Location latitude="49.3839" longitude="8.57055"/>
-		</Waypoint>
-		<ObservationZone type="FAISector"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="96" comment="" id="1" name="001 Ludwigshafen Dannstadt">
-			<Location latitude="49.4117" longitude="8.34833"/>
-		</Waypoint>
-		<ObservationZone radius="3000" type="Cylinder"/>
-	</Point>
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="002 AP Nord" id="0" comment="" altitude="98.0">
+      <Location longitude="8.3238833" latitude="49.4427833"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="204 Meisenheim Bf" id="0" comment="" altitude="158.0">
+      <Location longitude="7.6638833" latitude="49.7108333"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="Neunkirchen Bexb" id="0" comment=" 123.05" altitude="272.0">
+      <Location longitude="7.2533333" latitude="49.34"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="279 Sinsheim" id="0" comment="" altitude="159.0">
+      <Location longitude="8.8938833" latitude="49.2472167"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="006 Ziel 23" id="0" comment="" altitude="96.0">
+      <Location longitude="8.355" latitude="49.41445"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="6000.0"/>
+  </Point>
 </Task>
+
