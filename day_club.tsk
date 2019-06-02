@@ -1,26 +1,33 @@
-<Task fai_finish="0" finish_min_height_ref="AGL" finish_min_height="200" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_requires_arm="0" aat_min_time="10800" type="RT">
-	<Point type="Start">
-		<Waypoint altitude="98" comment="" id="332" name="333 BASF Limburgerhof">
-			<Location latitude="49.41" longitude="8.39917"/>
-		</Waypoint>
-		<ObservationZone length="10000" type="Line"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="375" comment="" id="110" name="111 Gramschatz Tv 1545Ft">
-			<Location latitude="49.9011" longitude="9.98667"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="440" comment="" id="320" name="321 Weipertshofen">
-			<Location latitude="49.0864" longitude="10.1256"/>
-		</Waypoint>
-		<ObservationZone type="Keyhole"/>
-	</Point>
-	<Point type="Finish">
-		<Waypoint altitude="96" comment="" id="1" name="001 Ludwigshafen Dannstadt">
-			<Location latitude="49.4117" longitude="8.34833"/>
-		</Waypoint>
-		<ObservationZone radius="3000" type="Cylinder"/>
-	</Point>
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="333 BASF Limburgerhof" id="0" comment="" altitude="98.0">
+      <Location longitude="8.3991667" latitude="49.41"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="247 Reisenbach Tv 2468Ft" id="0" comment="" altitude="580.0">
+      <Location longitude="9.115" latitude="49.5066667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="049 Bretten Bf" id="0" comment="" altitude="173.0">
+      <Location longitude="8.69305" latitude="49.03695"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="085 Eschkopf Turm" id="0" comment="" altitude="610.0">
+      <Location longitude="7.8538833" latitude="49.3102833"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
+      <Location longitude="8.3483333" latitude="49.4116667"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
 </Task>
+
