@@ -1,33 +1,39 @@
 <Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="002 AP Nord" id="0" comment="" altitude="98.0">
-      <Location longitude="8.3238833" latitude="49.4427833"/>
+    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
+      <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Area">
-    <Waypoint name="204 Meisenheim Bf" id="0" comment="" altitude="158.0">
-      <Location longitude="7.6638833" latitude="49.7108333"/>
+    <Waypoint name="115 Gruenstadt Quirnheimer Berg" id="0" comment="" altitude="315.0">
+      <Location longitude="8.13945" latitude="49.58555"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="20000.0"/>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
   </Point>
   <Point type="Area">
-    <Waypoint name="Neunkirchen Bexb" id="0" comment=" 123.05" altitude="272.0">
-      <Location longitude="7.2533333" latitude="49.34"/>
+    <Waypoint name="213 Moerlenbach Bf" id="0" comment="" altitude="162.0">
+      <Location longitude="8.7308333" latitude="49.5963833"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="15000.0"/>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
   </Point>
   <Point type="Area">
-    <Waypoint name="279 Sinsheim" id="0" comment="" altitude="159.0">
-      <Location longitude="8.8938833" latitude="49.2472167"/>
+    <Waypoint name="231 Odenheim Bf" id="0" comment="" altitude="149.0">
+      <Location longitude="8.7452833" latitude="49.1791667"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="20000.0"/>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="077 Edenkoben Bf" id="0" comment="" altitude="144.0">
+      <Location longitude="8.14055" latitude="49.28195"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="006 Ziel 23" id="0" comment="" altitude="96.0">
-      <Location longitude="8.355" latitude="49.41445"/>
+    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
+      <Location longitude="8.3483333" latitude="49.4116667"/>
     </Waypoint>
-    <ObservationZone type="Line" length="6000.0"/>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
   </Point>
 </Task>
 
