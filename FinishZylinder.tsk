@@ -1,9 +1,0 @@
-<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
-  <Point type="Finish">
-    <Waypoint name="001 Ludwigshafen Dannstadt" id="0" comment="" altitude="96.0">
-      <Location longitude="8.3483333" latitude="49.4116667"/>
-    </Waypoint>
-    <ObservationZone type="Cylinder" radius="3000.0"/>
-  </Point>
-</Task>
-
